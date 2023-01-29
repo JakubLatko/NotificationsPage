@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+  <title>Notifications page</title>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main>
+    
+      <div class="topWrapper">
+        <div class="notificationHeadingWrapper">
+          <h1>Notifications  </h1>
+          <div class="notificationsNumber"><p>3</p> </div>
+        </div>
+        <button class="clearingButton">Mark all as read</button> 
+      </div>
+      <div class="commentsSection">
+        
+        <div class="comment firstComment unread">
+          <img src="assets/images/avatar-mark-webber.webp" alt="mark's profile picture">
+          <div class="content">
+            <div class="text">
+              <p>
+                <a href="#" class="name">Mark Webber</a>
+                 reacted to your recent post
+                <a href="#" class="eventMarker">My first tournament today!</a>
+                <span class="firstDot dot"></span>
+              </p>
+            </div>
+            <div class="time"><h3>1m ago</h3></div>
+          </div>
+        </div>
+        <div class="comment secondComment unread">
+          <img src="assets/images/avatar-angela-gray.webp" alt="angela's profile picture">
+          <div class="content">
+            <div class="text"> 
+              <p>
+                <a href="#" class="name">Angela Gray</a>
+                followed you
+                <span class="secondDot dot"></span>
+              </p>
+            </div>
+            <div class="time"><h3>5m ago</h3></div>
+          </div>
+        </div>
+        <div class="comment thirdComment  unread">
+          <img src="assets/images/avatar-jacob-thompson.webp" alt="jacob's profile picture">
+          <div class="content">
+            <div class="text">
+              <p>
+                <a href="#" class="name">Jacob Thompson</a>
+                has joined your group
+                <a href="#" class="eventMarker">Chess Club</a>
+                <span class="dot thirdDot"></span>
+              </p>
+            </div>
+            <div class="time"><h3>1 day ago</h3></div>
+          </div>
+        </div>
+        <div class="comment ">
+          <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="rizky's profile picture">
+          <div class="content">
+            <div class="text">
+              <p>
+                <a href="#" class="name">Rizky Hasanuddin</a>
+                sent you a private message
+              </p>
+            </div>
+            <div class="time"><h3>5 days ago</h3></div>
+            <div class="privateMessage">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+            I'm already having lots of fun and improving my game.</div>
+          </div>
+        </div>
+        <div class="comment">
+          <img src="assets/images/avatar-kimberly-smith.webp" alt=" kim's profile picture">
+          <div class="content">
+            <div class="text imageNotification"> 
+              <p>
+                <a href="#" class="name">Kimberly Smith</a>
+                commented on your picture 
+                <a class="eventMarker" href="#">
+                  <img src="assets/images/image-chess.webp" alt="commented picture">
+                </a>
+              </p>
+            </div>
+            <div class="time"><h3>1 week ago</h3></div>
+          </div>
+        </div>
+        <div class="comment">
+          <img src="assets/images/avatar-nathan-peterson.webp" alt="nathan's profile picture">
+          <div class="content">
+            <div class="text ">
+              <p>
+                <a href="#" class="name">Nathan Peterson</a> 
+                reacted to your recent post
+                <a href="#" class="eventMarker">
+                5 end-game strategies to increase your win rate
+                </a>
+              </p>
+            </div>
+            <div class="time"><h3>2 weeks ago</h3></div>
+          </div>
+        </div>
+        <div class="comment">
+          <img src="assets/images/avatar-anna-kim.webp" alt="anna's profile picture">
+          <div class="content">
+            <div class="text">
+              <p>
+                <a href="#" class="name">Anna Kim</a>
+                left the group
+                <a href="#" class="eventMarker">Chess Club</a>
+              </p>
+            </div>
+            <div class="time"><h3>2 weeks ago</h3></div>
+          </div>
+        </div>
+      </div>
+  </main>
+</body>
+</html>
